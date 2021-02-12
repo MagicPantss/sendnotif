@@ -35,8 +35,8 @@ print(colorama.Fore.GREEN, """
 
 smtp_server = "smtp.gmail.com"
 port = 587  # For starttls
-sender_email = "notificarescript@gmail.com"
-receiver_email = "iuli2003iuliboss@gmail.com"
+sender_email = "sender email here"
+receiver_email = "the reciever email here"
 password = getpass("Type your password and press enter: ")
 while True:
     os.system("cls")
